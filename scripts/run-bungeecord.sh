@@ -278,7 +278,7 @@ case "${TYPE^^}" in
     : "${BUNGEE_JOB_ID:=lastStableBuild}"
     : "${BUNGEE_JAR_URL:=${BUNGEE_BASE_URL}/${BUNGEE_JOB_ID}/artifact/bootstrap/target/BungeeCord.jar}"
     : "${BUNGEE_JAR_REVISION:=${BUNGEE_JOB_ID}}"
-    BUNGEE_JAR=$BUNGEE_HOME/${BUNGEE_JAR:=BungeeCord-${BUNGEE_JAR_REVISION}.jar}
+    BUNGEE_JAR=$BUNGEE_HOME/${BUNGEE_JAR:=BungeeCord.jar}
     pruningPrefix=BungeeCord
     family=bungeecord
   ;;
